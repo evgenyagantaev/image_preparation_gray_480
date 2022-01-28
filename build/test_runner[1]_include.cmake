@@ -1,0 +1,5 @@
+if(EXISTS "/home/oem/workspace/cpp/image_preparation_gray_480/build/test_runner[1]_tests.cmake")
+  include("/home/oem/workspace/cpp/image_preparation_gray_480/build/test_runner[1]_tests.cmake")
+else()
+  add_test(test_runner_NOT_BUILT test_runner_NOT_BUILT)
+endif()
